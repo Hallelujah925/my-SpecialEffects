@@ -14,5 +14,5 @@ body { font-family: Arial; background: #fff url(images/bg.gif) repeat-x; }
 #header .normal a, #header .active a { float: left; width: 88px; height: 44px; line-height: 44px; text-align: center; text-decoration: none; font-size: 14px; font-weight: bold; }
 #header .active a { color: #fff; }
 #header .normal a { color: #999; }
-#btn_bg { width: 88px; height: 44px; background: #fb2347 url(images/btn_bg.gif); position: absolute; overflow:hidden; left: 608px; bottom: 0; z-index: 2; }
-#btn_bg ul { width: 528px; left:-176px; position:absolute; }
+#btn_bg { width: 88px; height: 44px; background: #fb2347 url(images/btn_bg.gif); position: absolute; overflow:hidden; left: 432px; bottom: 0; z-index: 2; }
+#btn_bg ul { width: 528px; left:0px; position:absolute; }

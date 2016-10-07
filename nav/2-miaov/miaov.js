@@ -22,11 +22,13 @@ function startMove()
 {
 	var oDiv=document.getElementById('btn_bg');
 	var oUl=oDiv.getElementsByTagName('ul')[0];
-	
+	//432为oUl的left值
 	oDiv.style.left=432+g_iCur+'px';
 	oUl.style.left=-g_iCur+'px';
+	//把运动和停止分隔开(if/else)
 	if(g_oTimer)
 	{
+		//在开始运动时，关闭已有定时器
 		clearInterval(g_oTimer);
 	}
 	g_oTimer=setInterval("doMove("+this.offsetLeft+")", 35);
